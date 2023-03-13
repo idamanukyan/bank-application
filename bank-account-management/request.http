@@ -1,0 +1,6 @@
+###
+
+ curl --location --request POST 'localhost:8080/bank-users/sign-in' --header 'Content-Type: application/json' --data-raw '{"email":"admin@gmail.com","password":"admin"}'
+
+###
+
