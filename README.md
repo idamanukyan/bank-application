@@ -1,11 +1,93 @@
-# Bank Admin Management
+🏦 Banking Application
 
-Project Scope
-The banking industry is highly competitive, and banks that do not offer a comprehensive and user-friendly application may lose customers to competitors that do. Therefore, a well-designed and well-implemented banking application is essential for banks to remain competitive. This document will address the functional specifications of a comprehensive banking application that allows users to manage their accounts, transfer in different currencies, and view transaction history.
-The background information for this business need or problem is the importance of providing a secure and user-friendly banking application that allows users to manage their finances efficiently. With the increasing popularity of online banking, users expect easy-to-use interfaces, fast transactions, and secure access to their financial information.
-The application provides functionalities for different types of users, including bank users, customer users, and admin users, with specific permissions and roles assigned to each type of user. This allows for better management of user profiles, account management, and transaction analysis. It consists of four modules, each responsible for specific functionality. 
-User Management: This module manages users' profiles and access to the application. It includes functionalities such as user registration, sign-in, permissions, and role management. 
-Bank Account Management: This module manages bank accounts and transactions. It includes functionalities for different types of customers (legal and physical) to register their cards, make transfers in different currencies, and view transaction history. The bank user approves or rejects profiles before setting them to active ones.
-Admin Management: This module manages the admin's access to the application. It allows the admin to view all cards and accounts and accept, reject, and delete them.
-Accounting Analytics: This module is responsible for keeping a history of transactions and analyzing them. It provides features for identifying trends in transaction volume over time and other specific analyses. It also ensures that sensitive transaction data is not exposed to unauthorized users.
-Overall, these modules provide a comprehensive and user-friendly banking application that meets the needs of different types of users. The application allows for easy managing of user profiles, account management, and transaction analysis while providing a secure environment for managing financial information.
+A comprehensive and secure banking system that allows users to efficiently manage accounts, perform transactions in multiple currencies, and analyze transaction history.
+The project is designed with role-based access for different user types—customers, bank employees, and admins—to ensure security, flexibility, and scalability.
+
+🚀 Why This Project?
+
+The banking industry is highly competitive, and customers expect:
+
+✅ Secure access to their financial data
+
+✅ User-friendly interfaces for managing accounts
+
+✅ Fast and reliable transactions across currencies
+
+This application addresses these expectations by providing a well-designed, modular system that enhances both customer experience and banking operations.
+
+📂 Key Modules
+🔐 1. User Management
+
+User registration and sign-in
+
+Role and permission handling
+
+Profile management (bank users, customer users, admin users)
+
+Bank approval process before activating customer accounts
+
+💳 2. Bank Account Management
+
+Manage different account types (legal entities & individual customers)
+
+Register cards and link them to accounts
+
+Perform money transfers in multiple currencies
+
+View detailed transaction history
+
+🛠️ 3. Admin Management
+
+View and manage all accounts and cards
+
+Approve, reject, or delete accounts
+
+Full control over system operations and user access
+
+📊 4. Accounting Analytics
+
+Transaction history tracking and analysis
+
+Identify trends in transaction volume over time
+
+Generate insights for financial reporting
+
+Ensure secure handling of sensitive data
+
+🔒 Security
+
+Role-based access control for customers, bank staff, and admins
+
+Secure authentication and authorization mechanisms
+
+Protection of sensitive transaction data from unauthorized access
+
+🛠️ Tech Stack (Planned/Example)
+
+Backend: Java / Spring Boot
+
+Frontend: React / JavaScript
+
+Database: MySQL / PostgreSQL
+
+Authentication: JWT / OAuth2
+
+Analytics: Integrated reporting & visualization
+
+🌍 Features at a Glance
+
+Multi-role user support (customers, bank employees, admins)
+
+Multi-currency transactions
+
+Transaction history with analytics
+
+Secure account and profile management
+
+Admin-level system oversight
+
+👩‍💻 Author
+
+Developed by Ida Manukyan
+📧 idamyan01@gmail.com
+ | 🌍 GitHub Profile
